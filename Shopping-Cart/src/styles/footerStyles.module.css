@@ -1,0 +1,47 @@
+:root {
+  --shop-name-font-size: 32px;
+}
+
+.footerContainer {
+  background-color: lightblue;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0 0;
+  width: 100vw;
+  height: fit-content;
+
+}
+
+input
+{
+    background-color: rgb(226, 239, 243);
+    border: 0;
+    border-radius: 1rem;
+    text-indent: 8px;
+}
+.newsletter
+{
+    font-size: var(--shop-name-font-size);
+}
+
+.oswald{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  button
+  {
+    background-color: rgb(226, 239, 243);
+    border: 0;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    color: black;
+    margin-bottom: 8px;
+  }
+  button:hover
+  {
+    background-color: rgb(190, 229, 241);
+  }

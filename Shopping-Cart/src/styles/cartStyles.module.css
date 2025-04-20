@@ -1,0 +1,39 @@
+.featuredProductsContainer {
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  .featuredProductsName {
+    text-align: left;
+  }
+  .featuredProducts {
+    display: grid;
+    height: 100%;
+    gap: 1rem;
+  }
+
+@media (min-width: 1000px) {
+    .featuredProducts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+    }
+  }
+  
+  @media (max-width: 1000px) and (min-width: 600px) {
+    .featuredProducts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+  
+    }
+  }
+  
+  @media (max-width: 600px) {
+      .featuredProducts {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(1, 1fr);
+        }
+  }
+  
+  
